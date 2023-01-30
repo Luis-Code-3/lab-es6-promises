@@ -95,8 +95,7 @@ Using nested callbacks print the cooking steps to make Mashed Potatoes in the co
 // Iteration 1 - using callbacks
 getInstruction('mashedPotatoes', 0, (step0) => {
   document.querySelector("#mashedPotatoes").innerHTML += `<li>${step0}</li>`
-  // ... Your code here
-    // ...
+  
 });
 ```
 
